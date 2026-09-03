@@ -1,7 +1,6 @@
-const ll=document.querySelector("#ll");
-ll.textContent="haven";
-const lk=document.querySelector(".lk");
-lk.textContent="loss";
-
-const kishore=document.querySelector("h1");
-setTimeout(()=>kishore.textContent="wowwwwww",5000)
+const heading=document.getElementById("#heading");
+const message=document.getElementById(".message");
+const btn=document.getElementById("button");
+heading.textContent="DOM Master";
+message.textContent="I can manipulate HTML!";
+btn.textContent="Let's Go!";
