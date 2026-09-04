@@ -1,4 +1,6 @@
-import Header  from "./Headers";
+// import Header  from "./Headers";
+import { deatils } from "./Headers";
+
 import {add as yuva , sub as kishore , mul as venky} from "./Headers";
 function App() {
 
@@ -11,6 +13,7 @@ function App() {
    <h2> Add:{yuva(16,20)}</h2><br />
    <h2> subtraction:{kishore(16,20)}</h2><br />
    <h2> Division:{venky(16,20)}</h2>
+   <h2>{deatils.name}    {deatils.age}   {deatils.sub}    {deatils.year}</h2>
     </>
   )
 }
