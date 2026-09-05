@@ -25,3 +25,14 @@ console.log(result);
 // map
 let results=names.map((name)=>name);
 console.log(results);
+
+let age=[12,23,55,35,7,45,45,34,65,45];
+const adult=age.filter((nums)=>nums>=18);
+console.log(adult);
+
+const result1=age.find((n)=>n>10);
+console.log(result1);
+
+let studentDetails={name:"kishore",age:20,dept:"CSE"};
+delete studentDetails.age;
+console.log(studentDetails);
